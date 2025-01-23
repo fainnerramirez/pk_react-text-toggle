@@ -1,0 +1,33 @@
+# Node modules
+/node_modules/
+
+# Archivos de construcción
+/dist/
+/build/
+
+/# Dependencias de desarrollo
+/.env
+/.eslintcache
+/.parcel-cache/
+/npm-debug.log
+/yarn-debug.log
+/yarn-error.log
+
+# Archivos de configuración locales
+/.idea/
+/.vscode/
+/*.swp
+
+# Archivos de sistema (MacOS y Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de cobertura (si usas herramientas como Jest o Mocha)
+/coverage/
+
+# Historias de Storybook (si usas Storybook)
+/.storybook/
+
+# Archivos generados por editor de texto (como Visual Studio Code)
+*.sublime-workspace
+*.sublime-project
